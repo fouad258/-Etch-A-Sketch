@@ -1,0 +1,131 @@
+html {
+    position: relative;
+    min-height: 100%;
+  }
+  
+  body {
+    background-color: #F7F7F7;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    margin: 0;
+  }
+  
+  h1 {
+    line-height: 1.2;
+    margin: 0;
+  }
+  
+  button,
+  input {
+    width: 100%;
+    border: none;
+    color: inherit;
+    font-family: inherit;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 75px;
+    margin: 30px 0;
+  }
+
+button {
+    padding: 10px 20px;
+    border: 1px solid hsl(0, 0%, 20%);
+    border-radius: 5px;
+}
+  
+  button:hover,
+  input[type='color']:hover{
+    transform: scale(1.05);
+  }
+
+  input[type='color'] {
+    -webkit-appearance: none;
+    width: 80px;
+    height: 80px;
+    border: none;
+  }
+  
+  
+  .main {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 50px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  button,
+input[type='color'] {
+  transition: transform 0.1s ease-in-out;
+}
+
+  
+  .parameters {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    width: 70px;
+
+  }
+  
+  .parameters label {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .parameters input[type="range"] {
+    width: 100%;
+  }
+  
+  .parameters .value {
+    font-size: 20px;
+    margin-bottom: -20px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  button {
+    padding: 8px 1.5px 1.5px 8px;
+    border-radius: 5px;
+    background-color: rgb(148, 130, 64);
+    color: #fff;
+    margin: 0.5px;
+    width: 5cm;
+  }
+  
+  button:hover,
+  input[type="color"]:hover {
+    transform: scale(1.05);
+  }
+  
+  .grid {
+    display: grid;
+    width: 500px;
+    height: 500px;
+    background-color: #fefefe;
+    padding-top: 15px;
+  }
+  
+  .grid-square {
+    background-color: #fefefe;
+    border: 1px solid black;
+  }
+  
+  header {
+    background-color: rgb(148, 130, 64);
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
